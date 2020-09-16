@@ -1,5 +1,10 @@
 package main
 
+import (
+	"./src/modules"
+)
+
 func main() {
-	// first checkpoint
+	// test
+	modules.javascript()
 }
