@@ -1,10 +1,11 @@
 package main
 
 import (
-	"./src/modules"
+	"./pkg/modules"
 )
 
 func main() {
 	// test
-	modules.startJsAnalysis()
+	modules.StartJsAnalysis("./examples/vulned.js")
+	//modules.StartPyAnalysis()
 }
