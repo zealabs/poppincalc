@@ -6,5 +6,5 @@ import (
 
 func main() {
 	// test
-	modules.javascript()
+	modules.startJsAnalysis()
 }
